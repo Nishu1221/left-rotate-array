@@ -1,0 +1,4 @@
+function rotateleft(arr){
+let first = arr.shift();
+arr.push(first);
+return arr;
